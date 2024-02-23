@@ -1,37 +1,54 @@
-body, h1, h2, p, ul{
+*{
+    box-sizing: border-box;
+
+}
+body{
     margin: 0;
-    padding: 0;
 }
-
 header{
-    background-color: #f2f2f2;
-    padding: 20px;
+    background-color: rgba(170, 162, 162, 0.653);
     text-align: center;
-}
+    padding: 25px;
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
 }
+.navbar{
+    background-color: rgb(92, 85, 85);
+    height: 80px;
+    color: white;
+    
 
-nav ul li a{
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+
 }
-
-main{
-    padding: 20px;
+aside{
+    background-color: rgba(128, 128, 128, 0.605);
+    width: 25%;
+    float: left;
+    padding: 10;
 }
-
 section{
-    margin-bottom: 30px;
+    background-color: rgba(240, 248, 255, 0.826);
+    width: 50%;
+    float: left;
+    padding: 10;
 }
+article{
+    background-color: rgba(245, 245, 220, 0.406);
+    width: 25%;
+    float: left;
+    padding: 10;
+} 
 
 footer{
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
+    display: block;
+    clear: both;
+    background-color: black;
     color: white;
+    text-align: center;
+    padding: 25px;
 
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
 }
