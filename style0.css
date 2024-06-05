@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: rgba(170, 162, 162, 0.653);
+    text-align: center;
+    padding: 25px;
+
+}
+.navbar{
+    background-color: rgb(92, 85, 85);
+    height: 80px;
+    color: white;
+    
+
+
+}
+aside{
+    background-color: rgba(128, 128, 128, 0.605);
+    width: 25%;
+    float: left;
+    padding: 10;
+}
+section{
+    background-color: rgba(240, 248, 255, 0.826);
+    width: 50%;
+    float: left;
+    padding: 10;
+}
+article{
+    background-color: rgba(245, 245, 220, 0.406);
+    width: 25%;
+    float: left;
+    padding: 10;
+} 
+
+footer{
+    display: block;
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}
